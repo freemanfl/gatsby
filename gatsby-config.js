@@ -5,5 +5,9 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: [
+    "gatsby-source-google-docs",
+    "gatsby-transformer-remark",
+    "gatsby-source-google-docs",
+  ],
+};
