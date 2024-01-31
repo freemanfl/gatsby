@@ -130,7 +130,7 @@ const IndexPage = () => {
         Congratulations
         <br />
         <span style={headingAccentStyles}>
-          — ASDASDasdasdyou just made a Gatsby site! 🎉🎉🎉
+          — FFF you just made a Gatsby site! 🎉🎉🎉
         </span>
       </h1>
       <p style={paragraphStyles}>
