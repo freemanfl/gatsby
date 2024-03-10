@@ -15,8 +15,10 @@
   },
   "dependencies": {
     "gatsby": "^5.13.2",
+    "gatsby-plugin-image": "^3.13.1",
     "gatsby-source-google-docs": "^2.4.3",
     "gatsby-transformer-remark": "^6.13.1",
+    "nvm": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
