@@ -1,10 +1,8 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
 module.exports = {
-  siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
-  },
   plugins: [
     {
       resolve: "gatsby-source-google-docs",
@@ -14,8 +12,12 @@ module.exports = {
         createPages: true,
       },
     },
-    "gatsby-source-google-docs",
     "gatsby-transformer-remark",
-    "gatsby-source-google-docs",
+    //
+    // OR "gatsby-plugin-mdx" for advanced usage using MDX
+    //
+    // You need some transformations?
+    // Checkout https://www.gatsbyjs.com/plugins/?=gatsby-remark
+    // And pick-up some plugins
   ],
 };

@@ -1,8 +1,9 @@
 {
-  "name": "gatsby",
+  "name": "gatsby-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "gatsby",
+  "description": "gatsby-blog",
+  "author": "Farid Mammadbayov",
   "keywords": [
     "gatsby"
   ],
@@ -14,11 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.13.2",
-    "gatsby-plugin-image": "^3.13.1",
+    "gatsby": "^5.13.3",
     "gatsby-source-google-docs": "^2.4.3",
     "gatsby-transformer-remark": "^6.13.1",
-    "nvm": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
